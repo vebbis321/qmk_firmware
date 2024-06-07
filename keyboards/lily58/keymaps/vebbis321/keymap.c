@@ -70,7 +70,7 @@ CTL_T(KC_ESC),   KC_1,    KC_2,   KC_3,    KC_4,  KC_5,                     KC_U
 [_RAISE] = LAYOUT(
       XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                     XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
       KC_TAB,  KC_HOME, KC_END, KC_PGUP, KC_PGDN, KC_PSCR,                      KC_BRIU, KC_BRID,  KC_MUTE, KC_VOLD, KC_VOLU,  XXXXXXX,
-CTL_T(KC_ESC),  KC_F1,    KC_F2,   KC_F3,   KC_F4,   KC_F5,                       XXXXXXX, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, XXXXXXX,
+CTL_T(KC_ESC),  KC_F1,    KC_F2,   KC_F3,   KC_F4,   KC_F5,                     KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, XXXXXXX, XXXXXXX,
       KC_LSFT,   KC_F6,   KC_F7,   KC_F8,  KC_F9,  KC_F10,   _______, _______,  KC_F11, KC_F12, XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX,
                             KC_RSFT, KC_LALT, KC_LGUI, KC_ENT, KC_SPC, MO(_LOWER), MO(_RAISE), KC_RALT
 ),
