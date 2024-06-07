@@ -28,6 +28,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define QUICK_TAP_TERM 0
 #define TAPPING_TERM 100
+#define RP2040_FLASH_GD25Q64CS
+#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET              // Activates the double-tap behavior
+#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_TIMEOUT 200U // Timeout window in ms in which the double tap can occur.
+#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_LED D5       // Specify an optional status LED by GPIO number which blinks when entering the bootloader
 
 #undef RGBLED_NUM
 #define RGBLIGHT_EFFECT_BREATHING
